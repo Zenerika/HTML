@@ -1,1 +1,26 @@
-body {background-color: rgb(226, 223, 223);}
+body {
+    background-color: rgb(240, 234, 234);
+    font-family: Helvetica, sans-serif;
+    border: 5px solid purple;
+    padding: 20px;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1::first-line {
+    text-align: center
+}
+
+img.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
